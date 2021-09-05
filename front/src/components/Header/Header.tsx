@@ -1,10 +1,13 @@
-import classes from "./Header.module.scss";
 import React from "react";
+
+import classes from "./Header.module.scss";
+import Navigation from "../Navigation/Navigation"
 
 function Header() {
     return (
         <header className={classes.Header}>
-            <h1>Better Photo</h1>
+            <span className={classes.logo}>Better Photo</span>
+            <Navigation></Navigation>
         </header>
     );
 }

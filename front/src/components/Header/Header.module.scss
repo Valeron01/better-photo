@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'CoquetteC';
+    src: url(../../fonts/CoquetteC.ttf);
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        font-family: "CoquetteC", sans-serif;
+        font-size: 3.0em;
+    }
+}
