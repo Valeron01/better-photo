@@ -4,9 +4,11 @@
 }
 
 .Header {
+    margin: 12px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 0 0 auto;
     .logo {
         font-family: "CoquetteC", sans-serif;
         font-size: 3.0em;

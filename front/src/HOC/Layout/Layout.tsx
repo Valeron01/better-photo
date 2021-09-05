@@ -1,22 +1,17 @@
 import React from "react";
-
-import Section from '../Section/Section';
-import Header from '../../components/Header/Header';
 import classes from "./Layout.module.scss";
 
-export interface LayoutProps {
-    children: React.ReactNode
-  }
+import Header from '../../components/Header/Header';
+import Main from '../../components/Main/Main'
+import Footer from '../../components/Footer/Footer'
 
 function Layout() {
     return (
-        <>
-            <div className={classes.wrapper}>
-                <Section>
-                    <Header></Header>
-                </Section>
-            </div>
-        </>
+        <div className={classes.Layout}>
+            <Header></Header>
+            <Main></Main>
+            <Footer></Footer>
+        </div>
     );
 }
 export default Layout

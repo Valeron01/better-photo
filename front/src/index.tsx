@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.module.scss'
 import Layout from './HOC/Layout/Layout';
 import reportWebVitals from './reportWebVitals';
 
